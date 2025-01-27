@@ -10,7 +10,7 @@ export default function Sidebar() {
 
 
   return (
-    <nav className="bg-sidebar flex flex-col border-l-white min-h-screen w-96 py-32">
+    <nav className="bg-sidebar flex flex-col border-l-white min-h-screen w-1/6 py-32">
       <SidebarButton text={b1} />
       <SidebarButton text={b2} />
       <SidebarButton text={b3} />
